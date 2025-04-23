@@ -1,0 +1,32 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Inventory Management System</h1>
+        <div class="inventory">
+            <h2>Products</h2>
+            <ul id="product-list"></ul>
+        </div>
+        <div class="total-value">
+            <h2>Total Inventory Value</h2>
+            <p id="total-value-before">Before Discount: $0.00</p>
+            <p id="total-value-after">After Discount: $0.00</p>
+        </div>
+        <button id="apply-discount">Apply 15% Discount</button>
+        <div class="search">
+            <h2>Find Product</h2>
+            <input type="text" id="product-name" placeholder="Enter product name">
+            <button id="find-product">Find</button>
+            <p id="found-product"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
